@@ -4471,3 +4471,26 @@ User 'rohan' logged in successfully.
 "GET /?category=School HTTP/1.1" 200 3589
 "GET / HTTP/1.1" 200 8811
 "GET / HTTP/1.1" 200 8811
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 8850
+"GET / HTTP/1.1" 200 8850
+"GET /sw.js HTTP/1.1" 200 1738
+"GET /sw.js HTTP/1.1" 200 1738
+"GET /offline/ HTTP/1.1" 200 3467
+"GET /offline/ HTTP/1.1" 200 3467
+"GET /about/ HTTP/1.1" 200 3314
+"GET /about/ HTTP/1.1" 200 3314
+"GET / HTTP/1.1" 200 8850
+"GET / HTTP/1.1" 200 8850
+"GET /login/ HTTP/1.1" 200 4866
+"GET /login/ HTTP/1.1" 200 4866
+"GET /sw.js HTTP/1.1" 200 1738
+"GET /sw.js HTTP/1.1" 200 1738
+User 'rohan' logged in successfully.
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9069
+"GET / HTTP/1.1" 200 9069
+"GET /sw.js HTTP/1.1" 200 1738
+"GET /sw.js HTTP/1.1" 200 1738

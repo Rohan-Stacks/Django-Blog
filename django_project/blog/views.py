@@ -4,6 +4,21 @@ from django.views.generic import ListView, DetailView, CreateView, UpdateView, D
 from .models import Post, Category, Tag
 from .forms import PostForm
 from .models import Post, Category
+from django.http import HttpResponse
+from django.views.decorators.cache import never_cache
+from django.views.decorators.http import require_GET
+
+# Serve sw.js as JavaScript
+@require_GET
+@never_cache
+def service_worker(request):
+    # Read the static sw.js file and return it with correct content type
+    sw_js = open('blog/static/blog/sw.js').read()
+    return HttpResponse(sw_js, content_type='application/javascript')
+
+# Offline page
+def offline(request):
+    return render(request, 'blog/offline.html')
 
 def home(request):
     context = {
