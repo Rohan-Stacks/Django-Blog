@@ -125,25 +125,31 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4' #Updated crispy to bootstrap4
 LOGIN_REDIRECT_URL = 'blog-home' #If user is correct, redirect to home page
 LOGIN_URL = 'login'
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+#Creating new and improved blog log
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
     'handlers': {
-        'file': {
+        'blog_file': {
             'level': 'INFO',
             'class': 'logging.FileHandler',
-            'filename': os.path.join(BASE_DIR, 'blog.log'),
+            'filename': os.path.join(BASE_DIR, 'blog.log'),  # use existing blog.log
+            'formatter': 'simple',
+        },
+    },
+    'formatters': {
+        'simple': {
+            'format': '{asctime} - {message}',
+            'style': '{',
         },
     },
     'loggers': {
-        'django': {
-            'handlers': ['file'],
+        'audit': {
+            'handlers': ['blog_file'],  # logs to blog.log
             'level': 'INFO',
-            'propagate': True,
-        },
-        '': {
-            'handlers': ['file'],
-            'level': 'INFO',
+            'propagate': False,
         },
     },
 }

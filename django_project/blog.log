@@ -4494,3 +4494,36 @@ User 'rohan' logged in successfully.
 "GET / HTTP/1.1" 200 9069
 "GET /sw.js HTTP/1.1" 200 1738
 "GET /sw.js HTTP/1.1" 200 1738
+C:\Users\rohan\PycharmProjects\Django\django_project\django_project\settings.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\django_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\django_project\settings.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\django_project\settings.py changed, reloading.
+2026-03-30 23:20:56,391 - User 'rohan' logged in successfully.
+2026-03-30 23:21:05,138 - User 'rohan' logged out.
+2026-03-30 23:21:14,436 - Failed login attempt for account 'erer'
+2026-03-30 23:21:15,015 - Failed login attempt for account 'erer'
+2026-03-30 23:21:22,036 - Failed login attempt for account 'erer'
+2026-03-30 23:21:22,548 - Failed login attempt for account 'erer'
+2026-03-30 23:23:33,689 - Failed login attempt for account 'er'
+2026-03-30 23:23:34,231 - Failed login attempt for account 'er'
+2026-03-30 23:34:12,023 - User logged in: rohan
+2026-03-30 23:34:17,915 - User logged out: rohan
+2026-03-30 23:34:24,111 - Failed login attempt: er
+2026-03-30 23:34:24,839 - Failed login attempt: er
+2026-03-30 23:35:10,195 - Failed login attempt: we
+2026-03-30 23:35:10,683 - Failed login attempt: we
+2026-03-30 23:37:19,331 - Successful login: rohan
+2026-03-30 23:37:23,866 - Logout: rohan
+2026-03-30 23:37:36,608 - Failed login attempt: re
+2026-03-30 23:37:37,102 - Failed login attempt: re
+2026-03-30 23:38:55,990 - Failed login attempt: er
+2026-03-30 23:38:56,518 - Failed login attempt: er
+2026-03-30 23:39:03,766 - Failed login attempt: erer
+2026-03-30 23:39:04,286 - Failed login attempt: erer
+2026-03-30 23:39:12,304 - Successful login: rohan
+2026-03-30 23:39:17,587 - Logout: rohan
+2026-03-30 23:41:31,941 - Failed login attempt: er
+2026-03-30 23:41:47,281 - Successful login: rohan
+2026-03-30 23:41:50,915 - Logout: rohan
