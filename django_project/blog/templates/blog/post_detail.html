@@ -2,22 +2,42 @@
 {% block content %}
 <article class="media content-section">
     <img class="rounded-circle article-img" src="{{ object.author.profile.image.url }}">
-  <div class="media-body">
-    <div class="article-metadata">
-      <a class="mr-2" href="#">{{ object.author }}</a>
-      <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small> <!-- Formatting automatic date selector -->
-{% if object.author == user %}
-      <div>
-  <a class="btn btn-secondary btn-sm mt-1 mb-1"
-     href="{% url 'post-update' object.id %}">Update</a>
+    <div class="media-body">
+        <div class="article-metadata">
+            <a class="mr-2" href="#">{{ object.author }}</a>
+            <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
+        </div>
 
-  <a class="btn btn-danger btn-sm mt-1 mb-1"
-     href="{% url 'post-delete' object.id %}">Delete</a>
-      </div>
-{% endif %}
+        <h2 class="article-title">{{ object.title }}</h2>
+        <p class="article-content">{{ object.content }}</p>
+
+        {% if object.author == user %}
+        <div class="mt-3 mb-3">
+            <a class="btn btn-secondary btn-sm" href="{% url 'post-update' object.id %}">Update</a>
+            <a class="btn btn-danger btn-sm" href="{% url 'post-delete' object.id %}">Delete</a>
+        </div>
+        {% endif %}
+
+        <!-- Show category and tags for this specific post -->
+        <div class="border rounded p-3 mt-3 bg-light">
+            <p class="mb-2">
+                <strong>Category:</strong>
+                {% if object.category %}
+                    <span class="badge badge-primary">{{ object.category.name }}</span>
+                {% else %}
+                    <span class="text-muted">None</span>
+                {% endif %}
+            </p>
+
+            <p class="mb-0">
+                <strong>Tags:</strong>
+                {% for tag in object.tags.all %}
+                    <span class="badge badge-info">{{ tag.name }}</span>
+                {% empty %}
+                    <span class="text-muted">None</span>
+                {% endfor %}
+            </p>
+        </div>
     </div>
-    <h2 class="article-title">{{ object.title }}</h2>
-    <p class="article-content">{{ object.content }}</p>
-  </div>
 </article>
 {% endblock content %}

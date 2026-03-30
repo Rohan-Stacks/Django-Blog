@@ -3929,3 +3929,545 @@ User 'rohan' logged in successfully.
 "POST /login/ HTTP/1.1" 302 0
 "GET / HTTP/1.1" 200 4716
 "GET / HTTP/1.1" 200 4716
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4497
+"GET / HTTP/1.1" 200 4497
+"GET /media/profile_pics/IMG_1841.jpeg HTTP/1.1" 200 8935
+"GET /media/profile_pics/IMG_1841.jpeg HTTP/1.1" 200 8935
+"GET /static/blog/main.css HTTP/1.1" 200 1207
+"GET /static/blog/main.css HTTP/1.1" 200 1207
+"GET /media/profile_pics/default.jpg HTTP/1.1" 200 14618
+"GET /media/profile_pics/default.jpg HTTP/1.1" 200 14618
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4653
+"GET /favicon.ico HTTP/1.1" 404 4653
+"GET /admin HTTP/1.1" 301 0
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4080
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4080
+"GET /static/admin/css/base.css HTTP/1.1" 200 23100
+"GET /static/admin/css/base.css HTTP/1.1" 200 23100
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+"GET /static/admin/css/login.css HTTP/1.1" 200 951
+"GET /static/admin/css/login.css HTTP/1.1" 200 951
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 12750
+"GET /admin/ HTTP/1.1" 200 12750
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 689
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 689
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8817
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8817
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"POST /admin/blog/category/add/ HTTP/1.1" 200 11536
+"POST /admin/blog/category/add/ HTTP/1.1" 200 11536
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"GET /admin/blog/category/ HTTP/1.1" 200 11567
+"GET /admin/blog/category/ HTTP/1.1" 200 11567
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+"GET /static/admin/img/icon-yes-dark.svg HTTP/1.1" 200 558
+"GET /static/admin/img/icon-yes-dark.svg HTTP/1.1" 200 558
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"GET /admin/blog/category/ HTTP/1.1" 200 11823
+"GET /admin/blog/category/ HTTP/1.1" 200 11823
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"GET /admin/blog/category/ HTTP/1.1" 200 12095
+"GET /admin/blog/category/ HTTP/1.1" 200 12095
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"GET /admin/blog/category/ HTTP/1.1" 200 12353
+"GET /admin/blog/category/ HTTP/1.1" 200 12353
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /admin/blog/category/add/ HTTP/1.1" 200 11299
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"POST /admin/blog/category/add/ HTTP/1.1" 302 0
+"GET /admin/blog/category/ HTTP/1.1" 200 12614
+"GET /admin/blog/category/ HTTP/1.1" 200 12614
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5235
+"GET / HTTP/1.1" 200 5235
+"GET /post/new/ HTTP/1.1" 200 4460
+"GET /post/new/ HTTP/1.1" 200 4460
+"POST /post/new/ HTTP/1.1" 302 0
+"POST /post/new/ HTTP/1.1" 302 0
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/update/ HTTP/1.1" 200 4492
+"GET /post/6/update/ HTTP/1.1" 200 4492
+"POST /post/6/update/ HTTP/1.1" 302 0
+"POST /post/6/update/ HTTP/1.1" 302 0
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET / HTTP/1.1" 200 5792
+"GET / HTTP/1.1" 200 5792
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5792
+"GET / HTTP/1.1" 200 5792
+"GET /?category=School HTTP/1.1" 200 3539
+"GET /?category=School HTTP/1.1" 200 3539
+"GET / HTTP/1.1" 200 5792
+"GET / HTTP/1.1" 200 5792
+"GET /?category=Lifestyle HTTP/1.1" 200 3539
+"GET /?category=Lifestyle HTTP/1.1" 200 3539
+"GET /?category=Work HTTP/1.1" 200 3539
+"GET /?category=Work HTTP/1.1" 200 3539
+"GET / HTTP/1.1" 200 5792
+"GET / HTTP/1.1" 200 5792
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/update/ HTTP/1.1" 200 5160
+"GET /post/6/update/ HTTP/1.1" 200 5160
+"POST /post/6/update/ HTTP/1.1" 302 0
+"POST /post/6/update/ HTTP/1.1" 302 0
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET / HTTP/1.1" 200 5794
+"GET / HTTP/1.1" 200 5794
+"GET /?category=School HTTP/1.1" 200 4098
+"GET /?category=School HTTP/1.1" 200 4098
+"GET /?category=Work HTTP/1.1" 200 3539
+"GET /?category=Work HTTP/1.1" 200 3539
+"GET /?category=School HTTP/1.1" 200 4098
+"GET /?category=School HTTP/1.1" 200 4098
+"GET / HTTP/1.1" 200 5794
+"GET / HTTP/1.1" 200 5794
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/update/ HTTP/1.1" 200 5160
+"GET /post/6/update/ HTTP/1.1" 200 5160
+"GET / HTTP/1.1" 200 5794
+"GET / HTTP/1.1" 200 5794
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5794
+"GET / HTTP/1.1" 200 5794
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/update/ HTTP/1.1" 200 5381
+"GET /post/6/update/ HTTP/1.1" 200 5381
+"POST /post/6/update/ HTTP/1.1" 302 0
+"POST /post/6/update/ HTTP/1.1" 302 0
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET / HTTP/1.1" 200 5944
+"GET / HTTP/1.1" 200 5944
+"GET /?tag=bolocks HTTP/1.1" 200 4248
+"GET /?tag=bolocks HTTP/1.1" 200 4248
+"GET /?tag=nuts HTTP/1.1" 200 4248
+"GET /?tag=nuts HTTP/1.1" 200 4248
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/update/ HTTP/1.1" 200 5413
+"GET /post/6/update/ HTTP/1.1" 200 5413
+"POST /post/6/update/ HTTP/1.1" 302 0
+"POST /post/6/update/ HTTP/1.1" 302 0
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET / HTTP/1.1" 200 5992
+"GET / HTTP/1.1" 200 5992
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/update/ HTTP/1.1" 200 5420
+"GET /post/6/update/ HTTP/1.1" 200 5420
+"POST /post/6/update/ HTTP/1.1" 302 0
+"POST /post/6/update/ HTTP/1.1" 302 0
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET /post/6/ HTTP/1.1" 200 3895
+"GET / HTTP/1.1" 200 5957
+"GET / HTTP/1.1" 200 5957
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 5957
+"GET / HTTP/1.1" 200 5957
+"GET /post/6/ HTTP/1.1" 200 4371
+"GET /post/6/ HTTP/1.1" 200 4371
+"GET /post/6/ HTTP/1.1" 200 4371
+"GET /post/6/ HTTP/1.1" 200 4371
+"GET /post/6/update/ HTTP/1.1" 200 6257
+"GET /post/6/update/ HTTP/1.1" 200 6257
+"GET / HTTP/1.1" 200 5957
+"GET / HTTP/1.1" 200 5957
+"GET /post/6/ HTTP/1.1" 200 4371
+"GET /post/6/ HTTP/1.1" 200 4371
+"GET /post/6/update/ HTTP/1.1" 200 5015
+"GET /post/6/update/ HTTP/1.1" 200 5015
+"GET / HTTP/1.1" 200 6273
+"GET / HTTP/1.1" 200 6273
+"GET /?category=School HTTP/1.1" 200 4577
+"GET /?category=School HTTP/1.1" 200 4577
+"GET / HTTP/1.1" 200 6273
+"GET / HTTP/1.1" 200 6273
+"GET /?category=Work HTTP/1.1" 200 3855
+"GET /?category=Work HTTP/1.1" 200 3855
+"GET /?category=Lifestyle HTTP/1.1" 200 3855
+"GET /?category=Lifestyle HTTP/1.1" 200 3855
+"GET /?category=Gaming HTTP/1.1" 200 3855
+"GET /?category=Gaming HTTP/1.1" 200 3855
+"GET /?category=Review HTTP/1.1" 200 3855
+"GET /?category=Review HTTP/1.1" 200 3855
+"GET / HTTP/1.1" 200 6273
+"GET / HTTP/1.1" 200 6273
+"GET /post/6/ HTTP/1.1" 200 4526
+"GET /post/6/ HTTP/1.1" 200 4526
+"GET /post/6/update/ HTTP/1.1" 200 5015
+"GET /post/6/update/ HTTP/1.1" 200 5015
+"GET /?category=School HTTP/1.1" 200 4577
+"GET /?category=School HTTP/1.1" 200 4577
+"GET /?category=Work HTTP/1.1" 200 3855
+"GET /?category=Work HTTP/1.1" 200 3855
+"GET / HTTP/1.1" 200 6273
+"GET / HTTP/1.1" 200 6273
+"GET /?category=School HTTP/1.1" 200 4577
+"GET /?category=School HTTP/1.1" 200 4577
+"GET /post/6/ HTTP/1.1" 200 4526
+"GET /post/6/ HTTP/1.1" 200 4526
+"GET /post/6/update/ HTTP/1.1" 200 5015
+"GET /post/6/update/ HTTP/1.1" 200 5015
+"GET /post/new/ HTTP/1.1" 200 4944
+"GET /post/new/ HTTP/1.1" 200 4944
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 7421
+"GET / HTTP/1.1" 200 7421
+"GET /?category=School HTTP/1.1" 200 4645
+"GET /?category=School HTTP/1.1" 200 4645
+"GET /?category=Work HTTP/1.1" 200 3535
+"GET /?category=Work HTTP/1.1" 200 3535
+"GET /?category=Lifestyle HTTP/1.1" 200 3535
+"GET /?category=Lifestyle HTTP/1.1" 200 3535
+"GET / HTTP/1.1" 200 7421
+"GET / HTTP/1.1" 200 7421
+"GET /post/6/ HTTP/1.1" 200 4531
+"GET /post/6/ HTTP/1.1" 200 4531
+"GET /post/6/update/ HTTP/1.1" 200 5056
+"GET /post/6/update/ HTTP/1.1" 200 5056
+"POST /post/6/update/ HTTP/1.1" 302 0
+"POST /post/6/update/ HTTP/1.1" 302 0
+"GET /post/6/ HTTP/1.1" 200 4534
+"GET /post/6/ HTTP/1.1" 200 4534
+"GET / HTTP/1.1" 200 7424
+"GET / HTTP/1.1" 200 7424
+"GET /?category=Lifestyle HTTP/1.1" 200 4648
+"GET /?category=Lifestyle HTTP/1.1" 200 4648
+"GET /?category=Gaming HTTP/1.1" 200 3535
+"GET /?category=Gaming HTTP/1.1" 200 3535
+"GET /?category=Work HTTP/1.1" 200 3535
+"GET /?category=Work HTTP/1.1" 200 3535
+"GET / HTTP/1.1" 200 7424
+"GET / HTTP/1.1" 200 7424
+"GET /post/6/ HTTP/1.1" 200 4534
+"GET /post/6/ HTTP/1.1" 200 4534
+"GET /post/new/ HTTP/1.1" 200 4985
+"GET /post/new/ HTTP/1.1" 200 4985
+"POST /post/new/ HTTP/1.1" 302 0
+"POST /post/new/ HTTP/1.1" 302 0
+"GET /post/7/ HTTP/1.1" 200 4509
+"GET /post/7/ HTTP/1.1" 200 4509
+User 'rohan' logged out successfully.
+"POST /logout/ HTTP/1.1" 200 3206
+"POST /logout/ HTTP/1.1" 200 3206
+"GET /login/ HTTP/1.1" 200 4608
+"GET /login/ HTTP/1.1" 200 4608
+Failed login attempt for username 'TestUser'.
+"POST /login/ HTTP/1.1" 200 4800
+"POST /login/ HTTP/1.1" 200 4800
+User 'TestUser' logged in successfully.
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 8512
+"GET / HTTP/1.1" 200 8512
+"GET /post/7/ HTTP/1.1" 200 4292
+"GET /post/7/ HTTP/1.1" 200 4292
+"GET /post/3/ HTTP/1.1" 200 4346
+"GET /post/3/ HTTP/1.1" 200 4346
+"GET /post/3/update/ HTTP/1.1" 200 5019
+"GET /post/3/update/ HTTP/1.1" 200 5019
+"POST /post/3/update/ HTTP/1.1" 302 0
+"POST /post/3/update/ HTTP/1.1" 302 0
+"GET /post/3/ HTTP/1.1" 200 4346
+"GET /post/3/ HTTP/1.1" 200 4346
+"GET /post/3/update/ HTTP/1.1" 200 5019
+"GET /post/3/update/ HTTP/1.1" 200 5019
+"POST /post/3/update/ HTTP/1.1" 302 0
+"POST /post/3/update/ HTTP/1.1" 302 0
+"GET /post/3/ HTTP/1.1" 200 4346
+"GET /post/3/ HTTP/1.1" 200 4346
+"GET /post/3/update/ HTTP/1.1" 200 5019
+"GET /post/3/update/ HTTP/1.1" 200 5019
+"POST /post/3/update/ HTTP/1.1" 302 0
+"POST /post/3/update/ HTTP/1.1" 302 0
+"GET /post/3/ HTTP/1.1" 200 4346
+"GET /post/3/ HTTP/1.1" 200 4346
+"GET /post/3/update/ HTTP/1.1" 200 5019
+"GET /post/3/update/ HTTP/1.1" 200 5019
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\admin.py changed, reloading.
+C:\Users\rohan\PycharmProjects\Django\django_project\blog\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /post/new/ HTTP/1.1" 302 0
+"GET /post/new/ HTTP/1.1" 302 0
+"GET /login/?next=/post/new/ HTTP/1.1" 200 4608
+"GET /login/?next=/post/new/ HTTP/1.1" 200 4608
+User 'rohan' logged in successfully.
+"POST /login/?next=/post/new/ HTTP/1.1" 302 0
+"POST /login/?next=/post/new/ HTTP/1.1" 302 0
+"GET /post/new/ HTTP/1.1" 200 5395
+"GET /post/new/ HTTP/1.1" 200 5395
+"GET / HTTP/1.1" 200 8811
+"GET / HTTP/1.1" 200 8811
+"GET /?category=Lifestyle HTTP/1.1" 200 4751
+"GET /?category=Lifestyle HTTP/1.1" 200 4751
+"GET /?category=Gaming HTTP/1.1" 200 3589
+"GET /?category=Gaming HTTP/1.1" 200 3589
+"GET /?category=Work HTTP/1.1" 200 4726
+"GET /?category=Work HTTP/1.1" 200 4726
+"GET /?category=School HTTP/1.1" 200 3589
+"GET /?category=School HTTP/1.1" 200 3589
+"GET / HTTP/1.1" 200 8811
+"GET / HTTP/1.1" 200 8811

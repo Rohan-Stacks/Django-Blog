@@ -1,16 +1,49 @@
 {% extends "base/base.html" %}
-{% load crispy_forms_tags %} <!-- Allowing us to use the crispy filter on any forms-->
 {% block content %}
-    <div class="content-section">
-      <form method="POST">
-        {% csrf_token %} <!-- csrf_token adds security, now we can add the form variable that we passed in -->
-        <fieldset class="form-group">
-          <legend class="border-bottom mb-4">Blog Post</legend>
-          {{ form|crispy }} <!-- Accessing form and crispy to each form, for stylization-->
-        </fieldset>
+<div class="content-section">
+
+<!-- Form used for both creating and updating blog posts -->
+<!-- Inputs are grouped to separate main content from additional data -->
+
+  <form method="POST">
+    {% csrf_token %}
+
+    <fieldset class="form-group">
+      <legend class="border-bottom mb-4">Blog Post</legend>
+
+          <!-- Section for main content -->
+      <div class="border rounded p-3 mb-3">
         <div class="form-group">
-          <button class="btn btn-outline-info" type="submit">Post</button> <!-- Stylizing -->
+          <!-- (Note: i do not understand why this is reported as invalid id reference, the video I used the technique from didn't glitch ) -->
+          <label for="{{ form.title.id_for_label }}">Title</label>
+          {{ form.title }}
         </div>
-      </form>
+
+        <!-- Content input -->
+        <div class="form-group">
+          <label for="{{ form.content.id_for_label }}">Content</label>
+          {{ form.content }}
+        </div>
+      </div>
+
+      <!-- Section for metadata (category + tags) -->
+      <div class="border rounded p-3 mb-3">
+        <div class="form-group">
+          <label for="{{ form.category.id_for_label }}">Category</label>
+          {{ form.category }}
+        </div>
+
+        <div class="form-group">
+          <label for="{{ form.tags_text.id_for_label }}">Tags</label>
+          {{ form.tags_text }}
+          <small class="form-text text-muted">{{ form.tags_text.help_text }}</small>
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="form-group">
+      <button class="btn btn-outline-info" type="submit">Post</button>
     </div>
+  </form>
+</div>
 {% endblock content %}

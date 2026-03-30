@@ -152,7 +152,7 @@ SESSION_COOKIE_SECURE = True  # Ensures session cookies are only sent over HTTPS
 SESSION_COOKIE_HTTPONLY = True  # Prevents JavaScript access to session cookies
 SESSION_COOKIE_SAMESITE = 'Lax'  # Protects against Cross-Site Request Forgery (CSRF) attacks
 
-SESSION_COOKIE_AGE = 60
+SESSION_COOKIE_AGE = 1200
 SESSION_SAVE_EVERY_REQUEST = True # this saves the session and update its expiry time on every request.
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

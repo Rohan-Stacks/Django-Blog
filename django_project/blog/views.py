@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from .models import Post
-
+from .models import Post, Category, Tag
+from .forms import PostForm
+from .models import Post, Category
 
 def home(request):
     context = {
@@ -17,29 +18,52 @@ class PostListView(ListView):
     context_object_name = 'posts'
     ordering = ['-date_posted']
 
+    def get_queryset(self):
+        queryset = super().get_queryset()
+
+        # Get category or tag from URL (used for filtering)
+        category = self.request.GET.get('category')
+        tag = self.request.GET.get('tag')
+
+        # Filter posts by selected category
+        if category:
+            queryset = queryset.filter(category__slug=category)
+
+        # Filter posts by selected tag
+        if tag:
+            queryset = queryset.filter(tags__slug=tag)
+
+        return queryset
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+
+        # Send all categories to template for navigation/filtering
+        context['categories'] = Category.objects.all()
+        return context
 
 class PostDetailView(DetailView):
     model = Post
 
-
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
-    fields = ['title', 'content']
+    form_class = PostForm # Use custom form to allow tag typing
 
     def form_valid(self, form):
+        # Automatically assign logged-in user as author
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Post
-    fields = ['title', 'content']
+    form_class = PostForm # Use same form for editing
 
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
     def test_func(self):
+        # Only allow users to edit their OWN posts
         post = self.get_object()
         return self.request.user == post.author
 
