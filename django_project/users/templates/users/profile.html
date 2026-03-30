@@ -1,0 +1,28 @@
+{% extends "base/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="content-section">
+    <div class="media">
+        <img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
+        <div class="media-body">
+            <h2 class="account-heading">{{ user.username }}</h2>
+            <p class="text-secondary">{{ user.email }}</p>
+        </div>
+    </div>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %} <!-- csrf_token adds security, now we can add the form variable that we passed in -->
+        <fieldset class="form-group">
+          <legend class="border-bottom mb-4">Profile Info</legend>
+          {{ u_form|crispy }} <!-- Accessing form and crispy to each form, for stylization-->
+          {{ p_form|crispy }} <!-- Accessing form and crispy to each form, for stylization-->
+        <fieldset>
+        <div class="form-group">
+          <button class="btn btn-outline-info" type="submit">Update</button> <!-- Stylizing -->
+        </div>
+    </form>
+</div>
+{% endblock content %}
+
+<!-- This template extends the base layout and displays the user’s profile information.
+It loads crispy forms for styling, then shows the user’s profile image, username,
+and email by pulling data from the backend (User and their related Profile model). -->
