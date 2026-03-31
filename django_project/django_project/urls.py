@@ -29,8 +29,21 @@ path('profile/', user_views.profile, name='profile'),
 path('admin/', admin.site.urls),
 path('register/', user_views.register, name='register'),# url pattern that uses register view so users can actually access
 path('login/', user_views.login_view, name='login'),  # Connects the /login/ URL to Django’s built-in LoginView so users can log into their account
-path('logout/', user_views.user_logout, name='logout'), # Connects the /login/ URL to Django’s built-in LoginView so users can log into their account
+path('logout/', user_views.user_logout, name='logout'), # Connects the /logout/ URL to Django’s built-in LoginView so users can logout of their account
 path('profile/', user_views.profile, name='profile'),
+
+path('password-reset', auth_views.PasswordResetView.as_view #sending password reset email to template
+(template_name='users/password_reset.html'), name='password_reset'),
+
+path('password-reset/done/', auth_views.PasswordResetDoneView.as_view
+(template_name='users/password_reset_done.html'), name='password_reset_done'),
+
+path('password-reset-confirm/<uidb64>/<token>/', auth_views.PasswordResetConfirmView.as_view
+(template_name='users/password_reset_confirm.html'), name='password_reset_confirm'),
+
+path('password-reset-complete', auth_views.PasswordResetCompleteView.as_view
+(template_name='users/password_reset_complete.html'), name='password_reset_complete'),
+
 path('', include('blog.urls')),
 ]
 

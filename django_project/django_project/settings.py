@@ -166,3 +166,10 @@ SESSION_SAVE_EVERY_REQUEST = True # this saves the session and update its expiry
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+EMAIL_BACKEND = 'users.email_backend.RelaxedSMTPEmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'rohan.nalakonda@gmail.com'
+EMAIL_HOST_PASSWORD = 'bukuoulgakskjpqx'
