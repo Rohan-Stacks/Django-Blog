@@ -4549,3 +4549,50 @@ C:\Users\rohan\PycharmProjects\Django\django_project\django_project\settings.py 
 2026-03-31 19:01:27,038 - Failed login attempt: rohan
 2026-03-31 19:01:35,470 - Successful login: rohan
 2026-03-31 19:04:56,693 - Logout: rohan
+2026-03-31 19:58:32,154 - Failed login attempt: None
+2026-03-31 20:06:51,138 - Successful login: rohan
+2026-03-31 20:06:53,069 - Logout: rohan
+2026-03-31 20:06:55,836 - Successful login: rohan
+2026-03-31 20:06:56,468 - Logout: rohan
+2026-03-31 20:07:03,724 - Failed login attempt: rohan
+2026-03-31 20:07:05,359 - Successful login: rohan
+2026-03-31 20:07:10,436 - Logout: rohan
+2026-03-31 20:07:14,621 - Failed login attempt: rohan
+2026-03-31 20:07:18,309 - Failed login attempt: rohan
+2026-03-31 20:07:21,592 - Failed login attempt: rohan
+2026-03-31 20:07:23,776 - Failed login attempt: rohan
+2026-03-31 20:07:27,124 - Failed login attempt: rohan
+2026-03-31 20:07:29,531 - Failed login attempt: rohan
+2026-03-31 20:07:39,509 - Failed login attempt: rohan
+2026-03-31 20:07:44,540 - Failed login attempt: rohan
+2026-03-31 20:08:14,713 - Failed login attempt: rohann
+2026-03-31 20:08:29,653 - Failed login attempt: TestUser
+2026-03-31 20:08:38,836 - Successful login: TestUser
+2026-03-31 20:08:41,406 - Logout: TestUser
+2026-03-31 20:08:49,741 - Failed login attempt: rohan
+2026-03-31 20:11:17,572 - Failed login attempt: None
+2026-03-31 20:14:47,279 - Failed login attempt: rohan
+2026-03-31 20:14:49,491 - Failed login attempt: rohan
+2026-03-31 20:14:51,436 - Failed login attempt: rohan
+2026-03-31 20:14:53,348 - Failed login attempt: rohan
+2026-03-31 20:14:55,341 - Failed login attempt: rohan
+2026-03-31 20:15:55,427 - Failed login attempt: rohan
+2026-03-31 20:15:59,021 - Failed login attempt: rohan
+2026-03-31 20:17:58,578 - Failed login attempt: rohan
+2026-03-31 20:19:04,513 - Failed login attempt: rohan
+2026-03-31 20:37:31,549 - Failed login attempt: rohan
+2026-03-31 20:37:37,642 - Failed login attempt: rohan
+2026-03-31 20:37:39,744 - Failed login attempt: rohan
+2026-03-31 20:37:41,431 - Failed login attempt: rohan
+2026-03-31 20:37:43,084 - Failed login attempt: rohan
+2026-03-31 20:37:44,873 - Failed login attempt: rohan
+2026-03-31 20:37:47,516 - Failed login attempt: rohan
+2026-03-31 20:37:51,994 - Failed login attempt: rohan
+2026-03-31 20:40:47,001 - Failed login attempt: rohan
+2026-03-31 20:40:52,472 - Failed login attempt: rohan
+2026-03-31 20:41:02,143 - Failed login attempt: rohan
+2026-03-31 20:41:52,357 - Failed login attempt: rohan
+2026-03-31 20:43:30,633 - Failed login attempt: rohan
+2026-03-31 20:45:49,076 - Failed login attempt: TestUser
+2026-03-31 22:45:53,495 - Failed login attempt: rohan
+2026-03-31 22:46:01,928 - Successful login: rohan

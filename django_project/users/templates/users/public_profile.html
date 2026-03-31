@@ -8,7 +8,11 @@ a profile that isnt their own -->
     <img class="rounded-circle account-img" src="{{ profile.image.url }}">
     <div class="media-body">
       <h2 class="account-heading">{{ profile_user.username }}</h2>
-      <p class="text-muted">Public profile</p>
+      {% if is_own_profile %}
+  <p class="text-muted">{{ profile_user.email }}</p> <!-- show email if it's you -->
+{% else %}
+  <p class="text-muted">Public profile</p> <!-- otherwise keep this -->
+{% endif %}
     </div>
   </div>
 
