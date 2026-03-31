@@ -1,11 +1,12 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout
+from users.models import User
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
-from django.contrib.auth.views import LoginView
 from django.contrib.auth.forms import AuthenticationForm
 import logging
+from users import views as user_views
 
 # Set up logger
 logger = logging.getLogger(__name__)
@@ -51,6 +52,18 @@ def profile(request):
     }
 
     return render(request, 'users/profile.html', context)
+
+def public_profile(request, username):
+    profile_user = get_object_or_404(User, username=username)
+
+    # public page therfore no editing since it aint THEIR profile
+    context = {
+        'profile_user': profile_user,
+        'profile': profile_user.profile,
+        'is_own_profile': request.user.is_authenticated and request.user == profile_user,
+    }
+
+    return render(request, 'users/public_profile.html', context)
 
 @login_required
 def user_logout(request):

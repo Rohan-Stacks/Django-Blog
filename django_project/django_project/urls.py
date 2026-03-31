@@ -22,6 +22,10 @@ from django.urls import path, include
 from users import views as user_views
 
 urlpatterns = [
+# public profile page
+path('profile/<str:username>/', user_views.public_profile, name='public-profile'),
+# own profile edit page
+path('profile/', user_views.profile, name='profile'),
 path('admin/', admin.site.urls),
 path('register/', user_views.register, name='register'),# url pattern that uses register view so users can actually access
 path('login/', user_views.login_view, name='login'),  # Connects the /login/ URL to Django’s built-in LoginView so users can log into their account

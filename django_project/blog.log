@@ -4527,3 +4527,10 @@ C:\Users\rohan\PycharmProjects\Django\django_project\django_project\settings.py 
 2026-03-30 23:41:31,941 - Failed login attempt: er
 2026-03-30 23:41:47,281 - Successful login: rohan
 2026-03-30 23:41:50,915 - Logout: rohan
+2026-03-31 10:24:30,516 - Successful login: rohan
+2026-03-31 10:24:55,608 - Logout: rohan
+2026-03-31 10:25:02,378 - Failed login attempt: rohan123
+2026-03-31 10:25:15,828 - Failed login attempt: TestUser
+2026-03-31 10:25:29,809 - Successful login: TestUser
+2026-03-31 11:12:08,921 - Successful login: rohan
+2026-03-31 11:23:58,099 - Logout: rohan
