@@ -24,11 +24,12 @@ class PostForm(forms.ModelForm):
 
     class Meta:
         model = Post
-        fields = ["title", "content", "category"]
         # Styling inputs so they display properly in the form
+        fields = ["title", "content", "category", "is_private"]  # adds private option for posts
         widgets = {
             "title": forms.TextInput(attrs={"class": "form-control"}),
             "content": forms.Textarea(attrs={"class": "form-control", "rows": 6}),
+            "is_private": forms.CheckboxInput(),  # This adds a tick box
         }
 
     def __init__(self, *args, **kwargs):

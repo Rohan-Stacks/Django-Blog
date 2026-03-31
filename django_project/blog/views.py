@@ -1,9 +1,8 @@
 from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from .models import Post, Category, Tag
-from .forms import PostForm
 from .models import Post, Category
+from .forms import PostForm
 from django.http import HttpResponse
 from django.views.decorators.cache import never_cache
 from django.views.decorators.http import require_GET
@@ -35,6 +34,12 @@ class PostListView(ListView):
 
     def get_queryset(self):
         queryset = super().get_queryset()
+
+        if self.request.user.is_authenticated:
+            from django.db.models import Q
+            queryset = queryset.filter(Q(is_private=False) | Q(author=self.request.user))
+        else:
+            queryset = queryset.filter(is_private=False)
 
         # Get category or tag from URL (used for filtering)
         category = self.request.GET.get('category')

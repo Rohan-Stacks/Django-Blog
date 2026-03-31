@@ -25,6 +25,14 @@
 
         <p class="article-content">{{ post.content }}</p>
 
+        <p class="mb-2">
+            {% if post.is_private %}
+                <span class="badge badge-secondary">Private</span> <!-- only author can see this -->
+            {% else %}
+                <span class="badge badge-success">Public</span>
+            {% endif %}
+        </p>
+
         <div class="border rounded p-3 mt-2 bg-light">
             <p class="mb-2">
                 <strong>Category:</strong>

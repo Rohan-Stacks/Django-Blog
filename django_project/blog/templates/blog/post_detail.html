@@ -8,6 +8,14 @@
             <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
         </div>
 
+    <p class="mb-2">
+        {% if object.is_private %}
+            <span class="badge badge-secondary">Private</span> <!-- only author can open this -->
+        {% else %}
+            <span class="badge badge-success">Public</span>
+        {% endif %}
+    </p>
+
         <h2 class="article-title">{{ object.title }}</h2>
         <p class="article-content">{{ object.content }}</p>
 

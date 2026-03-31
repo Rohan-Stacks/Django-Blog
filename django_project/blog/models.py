@@ -39,6 +39,13 @@ class Post(models.Model):
     content = models.TextField() # unrestricted text
     date_posted = models.DateTimeField(default=timezone.now) # sets the date of the post, though is changeable
     author = models.ForeignKey(User, on_delete=models.CASCADE) # One-to-many relationship, one user, many posts. If a user is deleted then all posts are deleted
+    is_private = models.BooleanField(default=False)  # private post flag
+
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse('post-detail', kwargs={'pk': self.pk})
 
     category = models.ForeignKey(
         Category,

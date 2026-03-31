@@ -12,29 +12,34 @@
       <legend class="border-bottom mb-4">Blog Post</legend>
 
           <!-- Section for main content -->
+      <!-- Title -->
       <div class="border rounded p-3 mb-3">
         <div class="form-group">
-          <!-- (Note: i do not understand why this is reported as invalid id reference, the video I used the technique from didn't glitch ) -->
-          <label for="{{ form.title.id_for_label }}">Title</label>
+          <label> Title </label>
           {{ form.title }}
         </div>
 
         <!-- Content input -->
         <div class="form-group">
-          <label for="{{ form.content.id_for_label }}">Content</label>
+          <label> Content </label>
           {{ form.content }}
         </div>
       </div>
 
       <!-- Section for metadata (category + tags) -->
+      <div class="form-group">
+        <label> Private Post </label>
+        {{ form.is_private }} <!-- adding simple checkbox for te private post option-->
+      </div>
+
       <div class="border rounded p-3 mb-3">
         <div class="form-group">
-          <label for="{{ form.category.id_for_label }}">Category</label>
+          <label> Category </label>
           {{ form.category }}
         </div>
 
         <div class="form-group">
-          <label for="{{ form.tags_text.id_for_label }}">Tags</label>
+          <label> Tags </label>
           {{ form.tags_text }}
           <small class="form-text text-muted">{{ form.tags_text.help_text }}</small>
         </div>
